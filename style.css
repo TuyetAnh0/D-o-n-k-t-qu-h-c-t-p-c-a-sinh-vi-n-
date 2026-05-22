@@ -1,25 +1,55 @@
-.main-container {
-    background-color: #f8f9fa;
-    padding: 25px;
-    border-radius: 10px;
-    border-left: 5px solid #007bff;
-    margin-bottom: 20px;
+.stApp {
+    background-color: #0f172a;
+    background-image: radial-gradient(circle at 50% 50%, #1e1b4b 0%, #0f172a 100%);
+    color: #f8fafc;
+    font-family: 'Segoe UI', sans-serif;
 }
+
+h1 {
+    color: #38bdf8 !important;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 0 0 10px rgba(56, 189, 248, 0.5);
+}
+
+.intro-box {
+    background: rgba(30, 41, 59, 0.7);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 25px;
+}
+
+div.stButton > button:first-child {
+    background: linear-gradient(90deg, #0ea5e9, #6366f1) !important;
+    color: white !important;
+    border: none !important;
+    border-radius: 50px !important;
+    width: 100% !important;
+    font-weight: bold !important;
+    box-shadow: 0 4px 15px rgba(14, 165, 233, 0.4) !important;
+}
+
+.result-card {
+    background: rgba(30, 41, 59, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
 .result-pass {
-    background-color: #d4edda;
-    color: #155724;
-    padding: 18px;
-    border-left: 6px solid #28a745;
-    border-radius: 6px;
-    font-size: 17px;
+    color: #10b981;
     font-weight: bold;
+    border-left: 5px solid #10b981;
+    padding-left: 15px;
 }
+
 .result-fail {
-    background-color: #f8d7da;
-    color: #721c24;
-    padding: 18px;
-    border-left: 6px solid #dc3545;
-    border-radius: 6px;
-    font-size: 17px;
+    color: #f43f5e;
     font-weight: bold;
+    border-left: 5px solid #f43f5e;
+    padding-left: 15px;
 }
